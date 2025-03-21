@@ -52,10 +52,9 @@ while ( contador>=1 ){
 
 console.log('THE END!')
 //fim atv 3
-*/
 
 //variavel_04
-let string = prompt ('Digite uma palavra')
+let string = prompt ('Digite uma palavra:')
 
 function inverterTexto(string){
     let reversed = string.split('').reverse('').join('');
@@ -64,3 +63,15 @@ function inverterTexto(string){
 
 inverterTexto(string)
 //fim atv 4
+*/
+
+//variavel_05
+let string = prompt ('Digite uma palavra:')
+
+function contarCaracteres(string){
+    let numCaracteres = string.length;
+    console.log(numCaracteres)
+}
+contarCaracteres(string)
+
+//fim_05
