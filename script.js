@@ -39,7 +39,7 @@ function matSimples(num2,num3){
 
 matSimples(num2,num3);
 //fim atv 2
-*/
+
 
 //variavel_03
 
@@ -52,6 +52,15 @@ while ( contador>=1 ){
 
 console.log('THE END!')
 //fim atv 3
+*/
 
+//variavel_04
+let string = prompt ('Digite uma palavra')
 
+function inverterTexto(string){
+    let reversed = string.split('').reverse('').join('');
+    console.log(reversed);
+}
 
+inverterTexto(string)
+//fim atv 4
