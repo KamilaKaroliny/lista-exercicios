@@ -63,7 +63,6 @@ function inverterTexto(string){
 
 inverterTexto(string)
 //fim atv 4
-*/
 
 //variavel_05
 let string = prompt ('Digite uma palavra:')
@@ -75,3 +74,15 @@ function contarCaracteres(string){
 contarCaracteres(string)
 
 //fim_05
+*/
+
+//variavel_06
+
+const carro = {
+    type:'Nissan',
+    model:'GTR-R35',
+    color:'cinza com faixas azul marinho',
+    year:'2007'
+};
+
+console.log('O carro é da ' + carro.type + ' modelo ' + carro.model + ' nas cores ' + carro.color + ' lançado em Tókio em ' + carro.year)
