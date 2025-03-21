@@ -85,7 +85,6 @@ const carro = {
 
 console.log('O carro é da ' + carro.type + ' modelo ' + carro.model + ' nas cores ' + carro.color + ' lançado em Tókio em ' + carro.year)
 //fim_06
-*/
 
  //variavel_07
 
@@ -97,4 +96,19 @@ function mensagemPersonalizada(nome){
 }
 
 mensagemPersonalizada(nome)
+//fim atv 7
+*/
+
+//variavel_08
+
+let num1 = parseFloat (prompt ('Digite o primeiro número')) 
+let num2 = parseFloat (prompt ('Digite o segundo número'))  
+let num3 = parseFloat (prompt ('Digite o terceiro número')) 
+
+function media(num1, num2, num3){
+    let medNum = (num1 + num2 + num3) / 3;
+    console.log('A sua média foi: ' + medNum);
+}
+media(num1, num2, num3)
+
 //fim atv 7
