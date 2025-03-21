@@ -97,7 +97,6 @@ function mensagemPersonalizada(nome){
 
 mensagemPersonalizada(nome)
 //fim atv 7
-*/
 
 //variavel_08
 
@@ -111,4 +110,23 @@ function media(num1, num2, num3){
 }
 media(num1, num2, num3)
 
-//fim atv 7
+//fim atv 8
+*/
+
+//variavel_09
+
+let n = 0
+
+while (n < 20){
+    n++
+    let resultado = n % 3
+
+    if (resultado === 0 ){
+        console.log(n + ' é multiplo de 3')
+    } else {
+        console.log(n + ' não é multiplo de 3')
+    }
+}
+
+//fim atv 9
+
