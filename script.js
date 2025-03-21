@@ -111,7 +111,6 @@ function media(num1, num2, num3){
 media(num1, num2, num3)
 
 //fim atv 8
-*/
 
 //variavel_09
 
@@ -129,4 +128,19 @@ while (n < 20){
 }
 
 //fim atv 9
+*/
 
+//variavel_10
+
+let string = prompt ('Digite uma palavra')
+
+function verificarPalindromo(string){
+    let reversed = string.split('').reverse().join('');
+    if (string === reversed){
+        console.log('A palavra ' + string + ' é políndromo');
+    } else {
+        console.log('A palavra ' + string + ' não é políndromo');
+    }
+}
+verificarPalindromo(string)
+//fim atv 10
