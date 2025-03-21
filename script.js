@@ -38,13 +38,20 @@ function matSimples(num2,num3){
 }
 
 matSimples(num2,num3);
-*/
-
 //fim atv 2
+*/
 
 //variavel_03
 
-for (let i = 0; i < 10; i++) {
-   console.log ('número ' + i);
-} 
+let contador = 10
+
+while ( contador>=1 ){
+    console.log(contador);
+    contador --;
+}
+
+console.log('THE END!')
+//fim atv 3
+
+
 
