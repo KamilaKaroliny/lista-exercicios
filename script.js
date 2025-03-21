@@ -72,9 +72,7 @@ function contarCaracteres(string){
     console.log(numCaracteres)
 }
 contarCaracteres(string)
-
 //fim_05
-*/
 
 //variavel_06
 
@@ -86,3 +84,17 @@ const carro = {
 };
 
 console.log('O carro é da ' + carro.type + ' modelo ' + carro.model + ' nas cores ' + carro.color + ' lançado em Tókio em ' + carro.year)
+//fim_06
+*/
+
+ //variavel_07
+
+let nome = prompt ('Digite o seu nome');
+const mensagem = ('Olá!, ');
+
+function mensagemPersonalizada(nome){
+    console.log(mensagem + nome);
+}
+
+mensagemPersonalizada(nome)
+//fim atv 7
