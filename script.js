@@ -228,7 +228,6 @@ function saudacao2(nome, saudacao) {
 saudacao2(nome, saudacao);
 
 //fim atv 17
-*/
 
 //variavel_18
 
@@ -245,3 +244,14 @@ function  verificarAprovacao(nota){
 verificarAprovacao(nota)
 
 //fim atv 18
+*/
+
+//variavel_19
+
+for (let i = 0; i <= 30; i++) {
+    if (i % 2 === 0) {
+        console.log(i)
+    }
+}
+
+//fim atv 19 
