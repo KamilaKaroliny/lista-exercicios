@@ -208,12 +208,24 @@ function verificarTamanho(string){
 verificarTamanho(string)
 
 //fim atv 15
-*/
 
 //variavel_16
 
 let frutas = ["Morango", "Uva", "Banana", "Amora", "Framboesa"];
 
-console.log(frutas[2]);
+console.log(frutas[2])
 
 //fim atv 16
+*/
+
+//variavel_17
+
+let nome = prompt('Digite seu nome');
+let saudacao = 'Bem vindo(a)! ';
+
+function saudacao2(nome, saudacao) {
+    console.log(saudacao + nome);
+}
+saudacao2(nome, saudacao);
+
+//fim atv 17
