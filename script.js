@@ -155,7 +155,6 @@ function verificarSinal(num){
 }
 verificarSinal(num)
 //fim atv 11
-*/
 
 //variavel_12
 
@@ -168,3 +167,29 @@ function converterTemperatura(temp){
 converterTemperatura(temp)
 
 //fim atv 12
+
+//variavel_13
+
+let soma = 0;
+let num = 1;
+
+while (num < 101) {
+    soma += num;
+    num++;
+}
+console.log("A soma de 1 a 100 é igual a: " + soma);
+
+//fim atv 13
+*/
+
+//variavel_14
+
+let string = prompt ('Digite uma frase da sua preferencia que contenha a palavra azul:')
+
+function substituirPalavra(string){
+    let novaString = string.replace('azul','vermelho');
+    console.log(novaString)
+}
+substituirPalavra(string)
+
+//fim atv 14
