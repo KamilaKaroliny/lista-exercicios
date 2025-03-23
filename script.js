@@ -318,7 +318,6 @@ while (num <= 20) {
 }
 
 //fim atv 23
-*/
 
 //variavel_24
 
@@ -331,10 +330,20 @@ console.log(capitalizar(string))
 capitalizar(string)
 
 //fim atv 24
+*/
 
 //variavel_25
 
+let ano = prompt('Digite um ano: ');
 
+function anoBissexto(ano) {
+    if (ano % 4 === 0) {
+        console.log(ano + ' é um ano Bissexto');
+    } else {
+        console.log( ano + ' não é um ano Bissexto');
+    }
+}
+anoBissexto(ano)
 
 //fim atv 25
 
