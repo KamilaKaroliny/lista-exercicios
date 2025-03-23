@@ -140,7 +140,6 @@ verificarPalindromo(string)
 //fim atv 10
 
 //Fim lista 1
-*/
 
 //variavel_11
 let num = prompt ('Digite um número:')
@@ -156,3 +155,16 @@ function verificarSinal(num){
 }
 verificarSinal(num)
 //fim atv 11
+*/
+
+//variavel_12
+
+let temp = parseFloat (prompt ('Digite a temperatura:'))
+
+function converterTemperatura(temp){
+    const convTemp = (temp * 1.8) + 32
+    console.log('A conversão da temperatura: ' + temp + ' para Fahrenheit é: ' + convTemp)
+}
+converterTemperatura(temp)
+
+//fim atv 12
