@@ -272,7 +272,6 @@ function contarVogais(string) {
 contarVogais(string)
 
 //fim atv 20
-*/
 
 //variavel_21
 
@@ -294,3 +293,16 @@ function somarArray(notas) {
 somarArray(notas)
 
 //fim atv 21
+*/
+
+//variavel_22
+
+let num = parseFloat (prompt ('Digite um número'))
+
+function dobrarNumero(num){
+    let numDobro = num + num
+    console.log('O dobro do número digitado é: ' + numDobro)
+}
+dobrarNumero(num)
+
+//fim atv 22
