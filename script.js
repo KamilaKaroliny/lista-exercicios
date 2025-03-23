@@ -244,7 +244,6 @@ function  verificarAprovacao(nota){
 verificarAprovacao(nota)
 
 //fim atv 18
-*/
 
 //variavel_19
 
@@ -254,4 +253,23 @@ for (let i = 0; i <= 30; i++) {
     }
 }
 
-//fim atv 19 
+//fim atv 19
+*/
+
+//variavel_20
+
+let string = prompt('Digite uma palavra: ')
+let i = 0
+let vogais = 'aAeEiIoOuU'
+
+function contarVogais(string) {
+    for (let letra of string) {
+        if (vogais.includes(letra)) {
+            i++
+        }
+    }
+    console.log(i + ' vogais')
+}
+contarVogais(string)
+
+//fim atv 20
