@@ -180,7 +180,6 @@ while (num < 101) {
 console.log("A soma de 1 a 100 é igual a: " + soma);
 
 //fim atv 13
-*/
 
 //variavel_14
 
@@ -193,3 +192,20 @@ function substituirPalavra(string){
 substituirPalavra(string)
 
 //fim atv 14
+*/
+
+//variavel_15
+
+let string = prompt ('Digite uma palavra')
+
+function verificarTamanho(string){
+    let qntdLetras = string.length;
+    if (qntdLetras > 10) {
+        console.log('A palavra: ' + string + ' tem mais de 10 caracteres')
+    } else {
+        console.log('A palavra: ' + string + ' não tem mais de 10 caracteres')
+    }
+}
+verificarTamanho(string)
+
+//fim atv 15
