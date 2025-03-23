@@ -305,7 +305,6 @@ function dobrarNumero(num){
 dobrarNumero(num)
 
 //fim atv 22
-*/
 
 //variavel_23
 
@@ -319,3 +318,24 @@ while (num <= 20) {
 }
 
 //fim atv 23
+*/
+
+//variavel_24
+
+let string = prompt ('Digite uma palavra')
+
+function capitalizar(string){
+    return string.charAt(0).toUpperCase() + string.slice(1)
+}
+console.log(capitalizar(string))
+capitalizar(string)
+
+//fim atv 24
+
+//variavel_25
+
+
+
+//fim atv 25
+
+//fim lista 2
