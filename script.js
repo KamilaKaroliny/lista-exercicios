@@ -114,16 +114,11 @@ media(num1, num2, num3)
 
 //variavel_09
 
-let n = 0
-
-while (n < 20){
-    n++
-    let resultado = n % 3
-
-    if (resultado === 0 ){
-        console.log(n + ' é multiplo de 3')
+for (let i = 1; i <= 20; i++) {
+    if (i % 3 === 0) {
+        console.log(i + ' é múltiplo de 3');
     } else {
-        console.log(n + ' não é multiplo de 3')
+        console.log(i + ' não é múltiplo de 3');
     }
 }
 
