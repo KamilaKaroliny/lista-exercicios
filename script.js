@@ -216,7 +216,6 @@ let frutas = ["Morango", "Uva", "Banana", "Amora", "Framboesa"];
 console.log(frutas[2])
 
 //fim atv 16
-*/
 
 //variavel_17
 
@@ -229,3 +228,20 @@ function saudacao2(nome, saudacao) {
 saudacao2(nome, saudacao);
 
 //fim atv 17
+*/
+
+//variavel_18
+
+let nota = prompt ('Digite a sua nota')
+
+function  verificarAprovacao(nota){
+    if (nota>= 6){
+        console.log('Você está aprovado')
+    } else {
+        console.log('Você está reprovado')
+    }
+}
+
+verificarAprovacao(nota)
+
+//fim atv 18
