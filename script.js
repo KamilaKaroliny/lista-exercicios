@@ -123,7 +123,6 @@ for (let i = 1; i <= 20; i++) {
 }
 
 //fim atv 9
-*/
 
 //variavel_10
 
@@ -139,3 +138,21 @@ function verificarPalindromo(string){
 }
 verificarPalindromo(string)
 //fim atv 10
+
+//Fim lista 1
+*/
+
+//variavel_11
+let num = prompt ('Digite um número:')
+
+function verificarSinal(num){
+    if (num > 0) {
+        console.log('Esse número é positivo')
+    } else if (num < 0) {
+        console.log('Esse número é negativo')
+    } else if (num == 0) {
+        console.log('Esse número é zero')
+    }
+}
+verificarSinal(num)
+//fim atv 11
