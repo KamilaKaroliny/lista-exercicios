@@ -81,7 +81,7 @@ const carro = {
     model:'GTR-R35',
     color:'cinza com faixas azul marinho',
     year:'2007'
-};
+}; 
 
 console.log('O carro é da ' + carro.type + ' modelo ' + carro.model + ' nas cores ' + carro.color + ' lançado em Tókio em ' + carro.year)
 //fim_06
@@ -192,7 +192,6 @@ function substituirPalavra(string){
 substituirPalavra(string)
 
 //fim atv 14
-*/
 
 //variavel_15
 
@@ -209,3 +208,12 @@ function verificarTamanho(string){
 verificarTamanho(string)
 
 //fim atv 15
+*/
+
+//variavel_16
+
+let frutas = ["Morango", "Uva", "Banana", "Amora", "Framboesa"];
+
+console.log(frutas[2]);
+
+//fim atv 16
