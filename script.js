@@ -293,7 +293,6 @@ function somarArray(notas) {
 somarArray(notas)
 
 //fim atv 21
-*/
 
 //variavel_22
 
@@ -306,3 +305,17 @@ function dobrarNumero(num){
 dobrarNumero(num)
 
 //fim atv 22
+*/
+
+//variavel_23
+
+let num = 2
+
+while (num <= 20) {
+    num++
+    if (num % 2 === 0) {
+        console.log(num)
+    }
+}
+
+//fim atv 23
