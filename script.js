@@ -254,7 +254,6 @@ for (let i = 0; i <= 30; i++) {
 }
 
 //fim atv 19
-*/
 
 //variavel_20
 
@@ -273,3 +272,25 @@ function contarVogais(string) {
 contarVogais(string)
 
 //fim atv 20
+*/
+
+//variavel_21
+
+const num1 = parseFloat(prompt('Digite seu primeiro número: '));
+const num2 = parseFloat(prompt('Digite seu segundo número: '));
+const num3 = parseFloat(prompt('Digite seu terceiro número: '));
+const num4 = parseFloat(prompt('Digite seu quarto número: '));
+
+let notas = [num1, num2, num3, num4];
+
+let somaNotas = 0;
+
+function somarArray(notas) {
+    for (let i = 0; i < notas.length; i++) {
+        somaNotas += notas[i];
+    }
+    console.log(somaNotas)  
+}
+somarArray(notas)
+
+//fim atv 21
