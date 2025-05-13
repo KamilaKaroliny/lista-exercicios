@@ -330,7 +330,6 @@ console.log(capitalizar(string))
 capitalizar(string)
 
 //fim atv 24
-*/
 
 //variavel_25
 
@@ -348,3 +347,19 @@ anoBissexto(ano)
 //fim atv 25
 
 //fim lista 2
+*/
+
+/* Exercício 1
+Crie um algoritmo que solicite ao usuário quantos números ele quiser somar. 
+A cada novo número digitado, o valor deve ser acumulado. 
+Ao final, exiba o resultado total da soma.*/
+
+
+let num = parseFloat (prompt('Quantos números você deseja somar?'));
+let soma = 0;
+
+    for (let i = 0; i < num; i++) {
+        let pergunta = parseFloat (prompt ('Digite um número:'));
+        soma = pergunta + soma;
+    }
+console.log('A soma dos números é: ' + soma)
