@@ -474,7 +474,7 @@ if (num % 2 === 0) {
 /* Exercício 6
 Crie um algoritmo que leia uma letra digitada pelo usuário e informe 
 se ela é uma vogal ou uma consoante.  
-Dica: utilize if ou switch e arrays para armazenar as vogais.*/
+Dica: utilize if ou switch e arrays para armazenar as vogais.
 
 //variavel_06
 let letra = prompt('Digite uma letra:').toLowerCase();
@@ -484,5 +484,66 @@ if (vogais.includes(letra)) {
     console.log('É uma vogal.');
 } else {
     console.log('É uma consoante.');
-}
+}*/
 //fim atv 06  
+
+/* Exercício 7
+Desenvolva um algoritmo para uma picoleteria. 
+Ao selecionar um sabor, o programa deve exibir o valor do picolé. 
+Os sabores e preços são:  
+Chocolate: R$1,50  
+Morango: R$2,50  
+Creme: R$2,50  
+Manga: R$3,20  
+Melancia: R$3,40  
+Vanilla Ice: R$3,00  
+Céu Azul: R$3,60  
+Brownie: R$4,00  
+Hawaiano: R$5,00 
+
+//variavel_07
+let sabor = prompt('Digite o sabor do picolé:').toLowerCase();
+
+let tabelaPrecos = {
+  'chocolate': 1.50,
+  'morango': 2.50,
+  'creme': 2.50,
+  'manga': 3.20,
+  'melancia': 3.40,
+  'vanilla ice': 3.00,
+  'céu azul': 3.60,
+  'brownie': 4.00,
+  'hawaiano': 5.00
+};
+
+if (sabor in tabelaPrecos) {
+  console.log('O valor do picolé de ' + sabor + ' é R$' + tabelaPrecos[sabor].toFixed(2));
+} else {
+  console.log('Sabor não encontrado.');
+}*/
+//fim atv 07
+
+/* Exercício 8
+Crie um algoritmo que sorteie um número aleatório de 1 a 100 
+e peça para o usuário tentar adivinhá-lo.
+O programa deve informar se o palpite está acima ou abaixo do valor 
+sorteado até que ele acerte.  
+Dica: use Math.random() e Math.floor().*/
+
+//variavel_08
+let numeroSecreto = Math.floor(Math.random() * 100) + 1;
+let palpite;
+
+do {
+  palpite = parseInt(prompt('Tente adivinhar o número entre 1 e 100:'));
+
+  if (palpite > numeroSecreto) {
+    console.log('O número é menor.');
+  } else if (palpite < numeroSecreto) {
+    console.log('O número é maior.');
+  } else {
+    console.log('Parabéns! Você acertou!');
+  }
+
+} while (palpite !== numeroSecreto);
+//fim atv 08
