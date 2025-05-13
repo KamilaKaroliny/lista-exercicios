@@ -528,7 +528,7 @@ Crie um algoritmo que sorteie um número aleatório de 1 a 100
 e peça para o usuário tentar adivinhá-lo.
 O programa deve informar se o palpite está acima ou abaixo do valor 
 sorteado até que ele acerte.  
-Dica: use Math.random() e Math.floor().*/
+Dica: use Math.random() e Math.floor().
 
 //variavel_08
 let numeroSecreto = Math.floor(Math.random() * 100) + 1;
@@ -545,5 +545,51 @@ do {
     console.log('Parabéns! Você acertou!');
   }
 
-} while (palpite !== numeroSecreto);
+} while (palpite !== numeroSecreto)
+*/
 //fim atv 08
+
+/* Exercício 9
+Desenvolva um algoritmo que peça ao usuário para digitar uma frase e, ao final, 
+exiba quantas vogais existem nessa frase.
+
+
+//variavel_09
+let frase = prompt('Digite uma frase:');
+let vogais = ['a', 'e', 'i', 'o', 'u'];
+let contador = 0;
+
+for (let i = 0; i < frase.length; i++) {
+  if (vogais.includes(frase[i].toLowerCase())) {
+    contador++;
+  }
+}
+
+console.log('Quantidade de vogais:', contador);
+*/
+//fim atv 09
+
+
+/* Exercício 10
+Crie um programa que solicite uma senha ao usuário. 
+A senha deve conter no mínimo 8 caracteres, com pelo menos uma 
+letra maiúscula, uma minúscula e um número. 
+Ao final, informe se a senha é válida ou não.*/
+
+//variavel_10
+let senha = prompt('Digite a senha:');
+let maiuscula = /[A-Z]/;
+let minuscula = /[a-z]/;
+let numero = /[0-9]/;
+let valido = false;
+
+if (senha.length >= 8 && maiuscula.test(senha) && minuscula.test(senha) && numero.test(senha)) {
+  valido = true;
+}
+
+if (valido) {
+  console.log('Senha válida!');
+} else {
+  console.log('Senha inválida! A senha deve ter no mínimo 8 caracteres, uma letra maiúscula, uma minúscula e um número.');
+}
+//fim atv 10
