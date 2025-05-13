@@ -574,7 +574,7 @@ console.log('Quantidade de vogais:', contador);
 Crie um programa que solicite uma senha ao usuário. 
 A senha deve conter no mínimo 8 caracteres, com pelo menos uma 
 letra maiúscula, uma minúscula e um número. 
-Ao final, informe se a senha é válida ou não.*/
+Ao final, informe se a senha é válida ou não.
 
 //variavel_10
 let senha = prompt('Digite a senha:');
@@ -591,5 +591,46 @@ if (valido) {
   console.log('Senha válida!');
 } else {
   console.log('Senha inválida! A senha deve ter no mínimo 8 caracteres, uma letra maiúscula, uma minúscula e um número.');
-}
+}*/
 //fim atv 10
+
+/* Exercício 11
+Peça ao usuário para digitar um número e mostre a 
+tabuada desse número de 1 a 10.  
+Dica: utilize laços de repetição para construir a tabuada.
+
+//variavel_11
+let numero = parseFloat(prompt('Digite um número:'));
+
+for (let i = 1; i <= 10; i++) {
+  console.log(numero * i);
+}*/
+//fim atv 11
+
+/* Exercício 12
+Crie um algoritmo que permita ao usuário cadastrar produtos 
+informando o nome e o preço. Após o cadastro de pelo menos 5 produtos, 
+exiba a lista de produtos com seus respectivos preços 
+e o valor total do carrinho.  
+Dica: use arrays e objetos.*/
+
+//variavel_12
+let produtos = [];
+let total = 0;
+
+for (let i = 0; i < 5; i++) {
+    let nome = prompt('Digite o nome do produto:');
+    let preco = parseFloat(prompt('Digite o preço do produto:'));
+    produtos.push({ nome, preco });
+    total += preco;
+}
+  
+console.log('Lista de produtos:');
+for (let produto of produtos) {
+    console.log(`${produto.nome}: R$ ${produto.preco.toFixed(2)}`);
+}
+  
+console.log(`Valor total do carrinho: R$ ${total.toFixed(2)}`);
+  
+//fim atv 12
+//fim lista 3
