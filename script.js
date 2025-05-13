@@ -347,14 +347,13 @@ anoBissexto(ano)
 //fim atv 25
 
 //fim lista 2
-*/
 
 /* Exercício 1
 Crie um algoritmo que solicite ao usuário quantos números ele quiser somar. 
 A cada novo número digitado, o valor deve ser acumulado. 
-Ao final, exiba o resultado total da soma.*/
+Ao final, exiba o resultado total da soma.
 
-
+//variavel_01
 let num = parseFloat (prompt('Quantos números você deseja somar?'));
 let soma = 0;
 
@@ -363,3 +362,27 @@ let soma = 0;
         soma = pergunta + soma;
     }
 console.log('A soma dos números é: ' + soma)
+
+//fim atv 01
+
+/* Exercício 2
+Simule uma contagem regressiva para o lançamento de um foguete, 
+partindo de 10 até 0, e ao final exiba a mensagem "Lançamento!".
+*/
+
+//variavel_02
+let intervalo = setInterval(lancamento, 1000)
+let contagem = 10;
+
+function lancamento() {
+    if (contagem >= 0) {
+        console.log(contagem);
+        contagem--;
+    } else {
+        console.log('Lançamento!');
+        clearInterval(intervalo);
+    }
+}
+lancamento();
+
+//fim atv 02
