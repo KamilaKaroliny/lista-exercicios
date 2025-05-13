@@ -390,7 +390,7 @@ lancamento();
 /*Exercicio 3
 Crie um algoritmo que solicite o ganho bruto e os gastos mensais de uma empresa durante os 12 meses do ano.
 Ao final, exiba:  Total de ganhos / Total de gastos / Saldo final  E uma mensagem informando se a empresa 
-teve lucro ou prejuízo no ano*/
+teve lucro ou prejuízo no ano
 
 
 //variavel_03
@@ -433,6 +433,24 @@ if (saldo < 0) {
     console.log('A empresa teve prejuízo.')
 } else {
     console.log('A empresa teve lucro!')
-}
+}*/
 
 //fim atv 03
+
+/* Exercicio 4
+Crie um algoritmo que solicite ao usuário quatro valores inteiros
+e os exiba em ordem decrescente.  
+Dica: pesquise sobre o uso de arrays e a função sort().*/
+
+//variavel_04
+let numeros = [];
+
+for (let i = 0; i < 4; i++) {
+  let valor = parseInt(prompt("Digite um número inteiro:"));
+  numeros.push(valor);
+}
+
+numeros.sort((a, b) => b - a);
+
+console.log('Ordem decrescente: ' + numeros.join(', '));
+//fim atv 04
