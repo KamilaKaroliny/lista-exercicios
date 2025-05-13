@@ -440,7 +440,7 @@ if (saldo < 0) {
 /* Exercicio 4
 Crie um algoritmo que solicite ao usuário quatro valores inteiros
 e os exiba em ordem decrescente.  
-Dica: pesquise sobre o uso de arrays e a função sort().*/
+Dica: pesquise sobre o uso de arrays e a função sort().
 
 //variavel_04
 let numeros = [];
@@ -453,4 +453,36 @@ for (let i = 0; i < 4; i++) {
 numeros.sort((a, b) => b - a);
 
 console.log('Ordem decrescente: ' + numeros.join(', '));
+*/
 //fim atv 04
+
+/* Exercício 5
+Crie um algoritmo que peça um número ao usuário. Se o número for par,
+transforme-o em ímpar. Se for ímpar, transforme-o em par.  
+Dica: utilize o operador % para identificar se o número é par ou ímpar.
+
+//variavel_05
+let num = parseFloat(prompt('Digite um número: '))
+
+if (num % 2 === 0) {
+    console.log('Este número é ímpar.')
+} else {
+    console.log('Este número é par.')
+}*/
+//fim atv 05
+
+/* Exercício 6
+Crie um algoritmo que leia uma letra digitada pelo usuário e informe 
+se ela é uma vogal ou uma consoante.  
+Dica: utilize if ou switch e arrays para armazenar as vogais.*/
+
+//variavel_06
+let letra = prompt('Digite uma letra:').toLowerCase();
+let vogais = ['a', 'e', 'i', 'o', 'u'];
+
+if (vogais.includes(letra)) {
+    console.log('É uma vogal.');
+} else {
+    console.log('É uma consoante.');
+}
+//fim atv 06  
